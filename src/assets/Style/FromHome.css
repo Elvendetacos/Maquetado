@@ -1,0 +1,134 @@
+.slider-div{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-s{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    animation: slide 10s infinite alternate linear;
+}
+
+.slider{
+    width: 70%;
+    height: 85%;
+    border-radius: 30px;
+    border: 4px black solid;
+    background-color: black;
+    overflow: hidden;
+}
+
+@keyframes slide {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+}
+
+.slider-s ul{
+    padding: 0%;
+    display: flex;
+    width:300%;
+    text-align: center;
+    
+}
+
+.slider-s li{
+    width: 100%;
+    list-style: none;
+
+}
+
+.slider-s img{
+    width: 100%;
+    width: 100%;
+}
+
+.contenido{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.part1{
+    width: 70%;
+}
+
+.medicos{
+    width: 60%;
+    height: 90px;
+    background-color: gainsboro;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 20%;
+    border-radius: 10px;
+    display: flex;
+    transition: all 0.5s;
+    border: 3px black solid;
+    position: relative;
+}
+
+.medicos:hover{
+    bottom: 1px;
+    transition: all 0.5s;
+    box-shadow: 4px 4px 4px black;
+}
+
+.tipo{
+    margin-top: 1%;
+    background-color: cornflowerblue;
+    width: 70%;
+    margin-left: 1.5%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 3px black solid;
+}
+
+.tipo p{
+    font-size: 30px;
+    font-weight: bold;    
+}
+
+.medicos img{
+    margin-top: 0.5%;
+    height: 95%;
+    width: 30%;
+    object-fit: contain;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.part2{
+    width: 25%;
+    margin-right: 2.5%;
+    margin-top: 100px;
+    height: 300px;
+    border-radius: 30px;
+    border: 3px black solid;
+    background-color: gainsboro;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.desc{
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: lighter;
+    width: 90%;
+    margin-left: 5%;
+}
